@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinema Booking Ticket</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+</head>
+<body>
+  <header>
+    <h1>Cinema Booking Ticket</h1>
+    <h2>Select Your Movies</h2>
+</header>
+        <section class="movies">
+    <div class="title">
+        <img src="movpic/mov.jpg" alt="">
+        <div class="layer">
+          <p id="move_name"><strong>Movie Name : </strong>KRAVEN (2023)</p>
+          <p><strong>Genre : </strong>Science Fiction / Action</p>
+          <p><strong>Language : </strong>English</p>
+          <p><strong>Rating : </strong>9.5/10</p>
+          <p><strong>Duration : </strong>1 hour and 4 minutes</p>
+          <p><strong>Release Date : </strong>October 25, 2023 (USA)</p>
+          <p id="time"><strong>Time: </strong>8:20 PM</p>
+        </div>
+      </div>
+            <div class="title">
+              <img src="movpic/mov3.jfif" alt="">
+              <div class="layer">
+                <p id="move_name"><strong>Movie Name : </strong>OPPENHEIMER (2023)</p>
+                <p><strong>Genre : </strong>Science Fiction / Action</p>
+                <p><strong>Language : </strong>English</p>
+                <p><strong>Rating : </strong>9.5/10</p>
+                <p><strong>Duration : </strong>2 hour and 4 minutes</p>
+                <p><strong>Release Date : </strong>SEP 25, 2023 (USA)</p>
+                <p id="time"><strong>Time: </strong>5:20 PM</p>
+              </div>
+            </div>
+        <div class="title">
+            <img src="movpic/mov1.jfif" alt="">
+            <div class="layer">
+              <p id="move_name"><strong>Movie Name : </strong>JOHN WICK (2022)</p>
+              <p><strong>Genre : </strong>Science Fiction / Action</p>
+              <p><strong>Language : </strong>English</p>
+              <p><strong>Rating : </strong>7.8/10</p>
+              <p><strong>Duration : </strong>1 hour and 40 minutes</p>
+              <p><strong>Release Date : </strong>May 25, 2022 (USA)</p>
+              <p id="time"><strong>Time: </strong>11.00 AM</p>
+            </div>
+      </div>
+      <div class="title">
+        <img src="movpic/mov2.jfif" alt="">
+        <div class="layer">
+          <p id="move_name"><strong>Movie Name : </strong>JUSTICE LEAGUE (2023)</p>
+          <p><strong>Genre : </strong>Science Fiction / Action</p>
+          <p><strong>Language : </strong>English</p>
+          <p><strong>Rating : </strong>8/10</p>
+          <p><strong>Duration : </strong>1 hour and 4 minutes</p>
+          <p><strong>Release Date : </strong>NOV 25, 2023 (USA)</p>
+          <p id="time"><strong>Time: </strong>1:50 PM</p>
+        </div>
+    </div>
+  </section>
+    <section class="home">
+      <div class="container">
+          <h2>Select Your Seats</h2>
+          <div class="screen">Screen</div>
+          <div class="seats-container">
+              <!-- Seats will be dynamically generated here -->
+          </div>
+          <p class="text">Selected Seats: <span id="selected-seats">0</span></p>
+          <p>Total Cost: <span id="total-cost">$0</span></p>
+          <button id="checkout-btn" disabled>Buy Ticket</button>
+      </div>
+  </section>
+
+    <script src="index.js"></script>
+</body>
+</html>
